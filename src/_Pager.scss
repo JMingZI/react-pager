@@ -1,0 +1,24 @@
+.pager {
+    text-align: center;
+    padding-top: 10px;
+    .con {
+        display: inline-block;
+        font-size: 0;
+        a, span {
+            display: inline-block;
+            vertical-align: top;
+            border: 1px #dcdcdc solid;
+            padding: 2px 6px;
+            background-color: #ffffff;
+            margin: 0 2px;
+            font-size: 12px;
+        }
+        input[type='number'] {
+            width: 50px;
+            height: 24px;
+            border: 1px #dcdcdc solid;
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+}
